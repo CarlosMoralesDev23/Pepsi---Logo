@@ -29,6 +29,21 @@ body{
     position: absolute;
     top:-275px;
     left: -300px;
-    
+    z-index: 2;
 
+
+}
+
+
+.pepsi:before{
+    border-radius: 25%;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    content: ' ';
+    position: absolute;
+    top: -170px;
+    left: -240px;
+    z-index: 1;
+    transform: rotate(-15deg);
 }
