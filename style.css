@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: #34588e;
+
+    background-size: cover;
+}
+
+.pepsi{
+    border-radius: 50%;
+    background-color: #34588e;
+    height: 300px;
+    width: 300px;
+    border: 10px solid white;
+    overflow: hidden;
+    position: relative;
+}
+
+.pepsi:after{
+    border-radius: 50%;
+    background: #da473c;
+    height: 500px;
+    width: 500px;
+    content: ' ';
+    position: absolute;
+    top:-275px;
+    left: -300px;
+    
+
+}
